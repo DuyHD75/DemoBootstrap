@@ -4,15 +4,15 @@
      box-sizing: border-box;
 }
 
-body{
-     padding:50px 0px 0px 0px;
-     z-index:0;
- }
- 
- .navbar-dark {
-      background-color: #512DA8;
- }
- 
+body {
+     padding: 50px 0px 0px 0px;
+     z-index: 0;
+}
+
+.navbar-dark {
+     background-color: #512DA8;
+}
+
 
 .jumbotron {
      padding: 70px 30px 70px 30px;
@@ -37,7 +37,7 @@ address {
 
 .row-content {
      margin: 0px auto;
-     padding: 50px 0px 50px 0px;
+     padding: 50px 0px;
      border-bottom: 1px ridge;
      min-height: 400px;
 }
@@ -46,4 +46,18 @@ address {
      background-color: #D1C4E9;
      margin: 0px auto;
      padding: 20px 0px 20px 0px;
+}
+
+.form-check {
+     margin-right: 1.6rem;
+}
+
+
+/* Tab Content */
+
+.tab-content {
+     border-left: 1px solid #ddd;
+     border-right: 1px solid #ddd;
+     border-bottom: 1px solid #ddd;
+     padding: 10px;
 }
